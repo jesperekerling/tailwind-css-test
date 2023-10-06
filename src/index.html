@@ -11,13 +11,13 @@
     <button class="bg-blue-500 py-2 px-4 text-white hover:bg-yellow-700 rounded-md">Button with Tailwind styles</button>
     <button class="bg-green-500/50 py-2 px-4 text-white" disabled>Button with opacity (disabled)</button>
 
-    <div class="bg-gradient-to-r from-cyan-500 to-blue-500 max-h-full px-16 py-16 rounded-md w-96 m-8">
-        <div class="px-2 py-6 bg-cover bg-top h-64 w-full relative" style="background-image: url(https://images.unsplash.com/photo-1474447976065-67d23accb1e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1585&q=80)">
-            <span class="text-xl absolute top-1/2 left-1/2 -translate-x-1/2 -transalte-y-1/2">❤</span>
+    <div class="flex flex-col md:flex-row bg-gradient-to-r from-blue-200 to-blue-100 w-64 md:w-auto rounded-2xl m-8">
+        <div class="px-2 py-6 bg-cover bg-top md:h-full w-full md:w-40 h-full relative" style="background-image: url(https://images.unsplash.com/photo-1474447976065-67d23accb1e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1585&q=80)">
+            <span class="text-xl absolute top-1/2 left-1/2 -translate-x-1/2 -transalte-y-1/2 text-center bg-white rounded-full px-4 py-4 hover:bg-black hover:text-white">❤ Add</span>
         </div>
-        <div class="text-center">
-            <h1 class="text-2xl pb-3 pt-3">John Doe</h1>
-            <h2 class="text-blue-800 text-lg mb-3">Web Engineer</h2>
+        <div class="text-center px-16 py-16">
+            <h1 class="text-3xl pb-4 pt-5 font-semibold">John Doe</h1>
+            <h2 class="text-blue-800 text-lg mb-3 font-semibold">Web Engineer & Teacher</h2>
             <h3 class="text-black mb-3">New York University</h3>
             <p class="mb-2">
                 <small class="mb-6"><i class=""></i> New York</small>
@@ -36,10 +36,11 @@
                     X
                 </div>
             </div>
-            <button class="bg-black text-white py-4 px-8 rounded-md hover:bg-black/80">
+            <button class="bg-black text-white py-4 px-8 rounded-md hover:bg-black/80 mt-5 font-semibold">
                 Message
             </button>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
