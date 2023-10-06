@@ -11,22 +11,34 @@
     <button class="bg-blue-500 py-2 px-4 text-white hover:bg-yellow-700 rounded-md">Button with Tailwind styles</button>
     <button class="bg-green-500/50 py-2 px-4 text-white" disabled>Button with opacity (disabled)</button>
 
-    <div class="bg-gradient-to-r from-cyan-500 to-blue-500 max-h-full px-16 py-16">
-        <div class="px-2 py-6 bg-cover h-64 w-48" style="background-image: url(https://images.unsplash.com/photo-1474447976065-67d23accb1e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1585&q=80)">
+    <div class="bg-gradient-to-r from-cyan-500 to-blue-500 max-h-full px-16 py-16 rounded-md w-96 m-8">
+        <div class="px-2 py-6 bg-cover bg-top h-64 w-full" style="background-image: url(https://images.unsplash.com/photo-1474447976065-67d23accb1e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1585&q=80)">
         </div>
-        <h1 class="text-4xl">John Doe</h1>
-        <h2 class="text-gray-500">Web Engineer</h2>
-        <h3 class="text-black">New York University</h3>
-        <small><i class=""></i> New York</small>
-        <div class="icons">
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
+        <div class="text-center">
+            <h1 class="text-2xl pb-3 pt-3">John Doe</h1>
+            <h2 class="text-blue-800 text-lg mb-3">Web Engineer</h2>
+            <h3 class="text-black mb-3">New York University</h3>
+            <p class="mb-2">
+                <small class="mb-6"><i class=""></i> New York</small>
+            </p>
+            <div class="flex gap-1 mb-3 justify-center">
+                <div class="w-4 aspect-square bg-black rounded-sm text-white text-sm box-border font-mono">
+                    G
+                </div>
+                <div class="w-4 aspect-square bg-black rounded-sm text-white text-sm box-border font-mono">
+                    F
+                </div>
+                <div class="w-4 aspect-square bg-black rounded-sm text-white text-sm box-border font-mono">
+                    L
+                </div>
+                <div class="w-4 aspect-square bg-black rounded-sm text-white text-sm box-border font-mono">
+                    X
+                </div>
+            </div>
+            <button class="bg-black text-white py-4 px-8 rounded-md hover:bg-black/80">
+                Message
+            </button>
         </div>
-        <button class="bg-black text-white py-4 px-8 rounded-md">
-            Message
-        </button>
     </div>
 </body>
 </html>
